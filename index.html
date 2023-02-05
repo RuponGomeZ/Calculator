@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5742900578461571"
-     crossorigin="anonymous"></script>
-    <meta name="google-site-verification" content="Bp-GE0hg7Xz57Mw2dmQ_Pv7wHZ8CYcuwaCYfqODQhHY" />
-    <meta charset="utf-8">
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-QXH198FJNX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-QXH198FJNX");
+    </script>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5742900578461571"
+      crossorigin="anonymous"
+    ></script>
+    <meta
+      name="google-site-verification"
+      content="Bp-GE0hg7Xz57Mw2dmQ_Pv7wHZ8CYcuwaCYfqODQhHY"
+    />
+    <meta charset="utf-8" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Online Calculator by <span id="color-red"><a href="https://www.facebook.com/rupongomez">AnthonyGomeZ</a> </span></h1>
+    <h1>
+      Online Calculator by
+      <span id="color-red"
+        ><a href="https://www.facebook.com/rupongomez">AnthonyGomeZ</a>
+      </span>
+    </h1>
     <div class="calculator">
-      <input type="text" id="display">
+      <input type="text" id="display" />
       <div class="buttons">
         <button id="1">1</button>
         <button id="2">2</button>
@@ -33,7 +58,8 @@
       </div>
     </div>
     <div id="visitor-count">
-      Visitors: <?php echo $visitor_count; ?>
+      Visitors:
+      <?php echo $visitor_count; ?>
     </div>
     <script src="script.js"></script>
   </body>
